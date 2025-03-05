@@ -11,7 +11,7 @@
     "server": "node server/index.js",
     "start": "concurrently \"npm run dev\" \"npm run server\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "homepage": "https://Bkadel.github.io/my-project"
   },
   "dependencies": {
